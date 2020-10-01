@@ -48,7 +48,7 @@ func SafeFileName(str string) string {
 		name = strings.Replace(name, "--", "-", -1)
 	}
 
-	return name
+	return name + ".png"
 }
 
 // PortsFromString returns a slice of ports parsed from a string
